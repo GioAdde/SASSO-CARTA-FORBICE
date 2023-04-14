@@ -1,0 +1,15 @@
+C:\Users\Admin\Documents\Corso_programmatore_Fullstack\SASSO-CARTA-FORBICE\bin\Debug\net7.0\SASSO-CARTA-FORBICE.exe
+C:\Users\Admin\Documents\Corso_programmatore_Fullstack\SASSO-CARTA-FORBICE\bin\Debug\net7.0\SASSO-CARTA-FORBICE.deps.json
+C:\Users\Admin\Documents\Corso_programmatore_Fullstack\SASSO-CARTA-FORBICE\bin\Debug\net7.0\SASSO-CARTA-FORBICE.runtimeconfig.json
+C:\Users\Admin\Documents\Corso_programmatore_Fullstack\SASSO-CARTA-FORBICE\bin\Debug\net7.0\SASSO-CARTA-FORBICE.dll
+C:\Users\Admin\Documents\Corso_programmatore_Fullstack\SASSO-CARTA-FORBICE\bin\Debug\net7.0\SASSO-CARTA-FORBICE.pdb
+C:\Users\Admin\Documents\Corso_programmatore_Fullstack\SASSO-CARTA-FORBICE\obj\Debug\net7.0\SASSO-CARTA-FORBICE.csproj.AssemblyReference.cache
+C:\Users\Admin\Documents\Corso_programmatore_Fullstack\SASSO-CARTA-FORBICE\obj\Debug\net7.0\SASSO-CARTA-FORBICE.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\Documents\Corso_programmatore_Fullstack\SASSO-CARTA-FORBICE\obj\Debug\net7.0\SASSO-CARTA-FORBICE.AssemblyInfoInputs.cache
+C:\Users\Admin\Documents\Corso_programmatore_Fullstack\SASSO-CARTA-FORBICE\obj\Debug\net7.0\SASSO-CARTA-FORBICE.AssemblyInfo.cs
+C:\Users\Admin\Documents\Corso_programmatore_Fullstack\SASSO-CARTA-FORBICE\obj\Debug\net7.0\SASSO-CARTA-FORBICE.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Documents\Corso_programmatore_Fullstack\SASSO-CARTA-FORBICE\obj\Debug\net7.0\SASSO-CARTA-FORBICE.dll
+C:\Users\Admin\Documents\Corso_programmatore_Fullstack\SASSO-CARTA-FORBICE\obj\Debug\net7.0\refint\SASSO-CARTA-FORBICE.dll
+C:\Users\Admin\Documents\Corso_programmatore_Fullstack\SASSO-CARTA-FORBICE\obj\Debug\net7.0\SASSO-CARTA-FORBICE.pdb
+C:\Users\Admin\Documents\Corso_programmatore_Fullstack\SASSO-CARTA-FORBICE\obj\Debug\net7.0\SASSO-CARTA-FORBICE.genruntimeconfig.cache
+C:\Users\Admin\Documents\Corso_programmatore_Fullstack\SASSO-CARTA-FORBICE\obj\Debug\net7.0\ref\SASSO-CARTA-FORBICE.dll
