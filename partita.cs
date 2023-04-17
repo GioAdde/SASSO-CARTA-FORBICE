@@ -1,8 +1,3 @@
-using System.Text.RegularExpressions;
-
-
-
-
 
 
 class Partita
@@ -57,9 +52,9 @@ class Partita
         {
             Console.WriteLine("Pareggio!"); // stampo pareggio
         }
-        
-		else if (scelta1 == "sasso" && scelta2 == "forbice" || scelta1 == "carta" && scelta2 == "sasso" || scelta1 == "forbice" && scelta2 == "carta") // se il giocatore 1 vince
-                                                                                                                                                       
+
+        else if (scelta1 == "sasso" && scelta2 == "forbice" || scelta1 == "carta" && scelta2 == "sasso" || scelta1 == "forbice" && scelta2 == "carta") // se il giocatore 1 vince
+
 
         {
             Console.WriteLine("Vince " + this.g1.GetNome()); // stampo vince il giocatore 1
