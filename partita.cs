@@ -15,8 +15,12 @@ class Partita
     {
         Console.WriteLine("Giocatore 1: " + this.g1.GetNome()); // stampo il nome del giocatore 1
         Console.WriteLine("Giocatore 2: " + this.g2.GetNome()); // stampo il nome del giocatore 2
-        string scelta1, scelta2;
 
+        Random rnd = new Random();
+        int randomComputer = rnd.Next(1, 4);
+        int giocatorePunteggio = 0;
+        int computerPunteggio = 0;
+        string scelta1;
 
         do
         {
@@ -32,38 +36,56 @@ class Partita
 
         } while (scelta1 != "sasso" && scelta1 != "carta" && scelta1 != "forbice");
 
-        do
+
+
+        string sceltaComputer;
+        if (randomComputer == 1)
         {
-            Console.WriteLine(this.g2.GetNome() + " " + "E' il tuo turno: scegli sasso, carta o forbice?: "); // stampo il nome del giocatore 1
-            scelta2 = Console.ReadLine(); // leggo la scelta del giocatore 1
-
-            if (scelta2 != "sasso" && scelta2 != "carta" && scelta2 != "forbice")
-            {
-                Console.ForegroundColor = ConsoleColor.Red;
-                Console.WriteLine("Input errato, scegli solo sasso, carta o forbice");
-                Console.ResetColor();
-            }
-
-        } while (scelta2 != "sasso" && scelta2 != "carta" && scelta2 != "forbice");
-
-
-
-        if (scelta1 == scelta2) // se le scelte sono uguali
+            sceltaComputer = "sasso";
+        }
+        else if (randomComputer == 2)
         {
-            Console.WriteLine("Pareggio!"); // stampo pareggio
+            sceltaComputer = "carta";
+        }
+        else
+        {
+            sceltaComputer = "forbice";
         }
 
-        else if (scelta1 == "sasso" && scelta2 == "forbice" || scelta1 == "carta" && scelta2 == "sasso" || scelta1 == "forbice" && scelta2 == "carta") // se il giocatore 1 vince
+
+
+        if (scelta1 == sceltaComputer) // se le scelte sono uguali
+        {
+            Console.ForegroundColor = ConsoleColor.Yellow;
+            Console.WriteLine(this.g2.GetNome() + " " + "ha scelto:" + sceltaComputer);
+            Console.ForegroundColor = ConsoleColor.Green;
+            Console.WriteLine("Pareggio!"); // stampo pareggio
+            Console.ResetColor();
+
+        }
+
+        else if (scelta1 == "sasso" && sceltaComputer == "forbice" || sceltaComputer == "carta" && sceltaComputer == "sasso" || scelta1 == "forbice" && sceltaComputer == "carta") // se il giocatore 1 vince
 
 
         {
+            Console.ForegroundColor = ConsoleColor.Yellow;
+            Console.WriteLine(this.g2.GetNome() + " " + "ha scelto:" + sceltaComputer);
+            Console.ForegroundColor = ConsoleColor.Green;
             Console.WriteLine("Vince " + this.g1.GetNome()); // stampo vince il giocatore 1
             this.g1.SetPunteggio(this.g1.GetPunteggio() + 1); // assegno un punto al giocatore 1
+            giocatorePunteggio++;
+            Console.ResetColor();
+
         }
         else // se il giocatore 2 vince
         {
+            Console.ForegroundColor = ConsoleColor.Yellow;
+            Console.WriteLine(this.g2.GetNome() + " " + "ha scelto:" + sceltaComputer);
+            Console.ForegroundColor = ConsoleColor.Green;
             Console.WriteLine("Vince " + this.g2.GetNome());
             this.g2.SetPunteggio(this.g2.GetPunteggio() + 1); // assegno un punto al giocatore 2
+            computerPunteggio++;
+            Console.ResetColor();
         }
     }
     public void StampaPunteggio() // metodo per stampare il punteggio dei giocatori
