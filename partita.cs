@@ -42,7 +42,7 @@ class Partita
             Console.WriteLine(this.g2.GetNome() + " " + "E' il tuo turno: scegli sasso, carta o forbice?: "); // stampo il nome del giocatore 1
             scelta2 = Console.ReadLine(); // leggo la scelta del giocatore 1
 
-            if (scelta1 != "sasso" && scelta1 != "carta" && scelta1 != "forbice")
+            if (scelta2 != "sasso" && scelta2 != "carta" && scelta2 != "forbice")
             {
                 Console.ForegroundColor = ConsoleColor.Red;
                 Console.WriteLine("Input errato, scegli solo sasso, carta o forbice");
